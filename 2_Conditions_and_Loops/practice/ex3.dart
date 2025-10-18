@@ -21,11 +21,11 @@ void main() {
       case 'i':
       case 'o':
       case 'u':
-        print("Character '${ch}' is a vowel.");
+        print("Character '$ch' is a vowel.");
         countVowel++;
         break;
       default:
-        print("Character \'$ch\' is a consonant.");
+        print("Character '$ch' is a consonant.");
         countCons++;
         break;
     }
