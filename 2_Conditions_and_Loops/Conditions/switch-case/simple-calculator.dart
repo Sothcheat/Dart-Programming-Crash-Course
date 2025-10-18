@@ -1,10 +1,10 @@
 import 'dart:io';
 
 void main() {
-  double? num1;
-  double? num2;
-  String? operator;
-  double result;
+  var num1;
+  var num2;
+  var operator;
+  var result;
 
   print("========== Calculator ==========");
   stdout.write("Enter num1: ");
